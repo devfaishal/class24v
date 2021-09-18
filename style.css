@@ -1,0 +1,248 @@
+body,p,span{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Header Custom Style */
+.main_header .container-fluid,
+.banner_section .container-fluid{
+    max-width: 1480px;
+}
+body .btn-primary {
+	background: #e94c4e !important;
+	border: none;
+	padding: 11px 35px;
+	font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+body .btn-primary::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #111;
+    border-color: #111;
+    z-index: -1;
+    transition: .4s;
+}
+body .btn-primary:hover::after{
+    width: 100%;
+}
+
+/* Header Section */
+.header_info{}
+.header_search {
+	width: 50px;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 24px;
+    border-right: 1px solid #ddd;
+}
+.header_call{
+    width: 220px;
+}
+.header_call_icon{
+    font-size: 33px;
+    color: #e94c4e;
+}
+.header_call_info span{
+    color: #606060;
+}
+.header_call_info a{
+    font-weight: 500;
+    color: #111;
+    text-decoration: none;
+    font-size: 16px;
+}
+.header_button{}
+
+
+/* Primary Menu */
+ul.our_primary_menu{}
+ul.our_primary_menu li{}
+ul.our_primary_menu li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #111;
+    font-weight: 500;
+}
+ul.our_primary_menu li a:hover{}
+
+/* DropDown Menu Css */
+ul.our_primary_menu li{
+    position: relative;
+}
+ul.our_primary_menu li ul{
+    position: absolute;
+    width: 250px;
+    left: 0;
+    top: 160%;
+    background: #fafafa;
+    padding: 10px;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease-in-out;
+}
+ul.our_primary_menu li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 120%;
+}
+ul.our_primary_menu li ul li{}
+ul.our_primary_menu li ul li a{}
+ul.our_primary_menu li ul li a:hover{}
+
+
+/* Banner Section */
+.banner_section{
+    background: url(https://templates.envytheme.com/finix/default/assets/img/main-banner2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner_content_wrap{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.slder_content h6{
+    color: #e73c46;
+}
+.slder_content h1 {
+	font-size: 68px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.slder_content p{
+    color: #606060;
+    font-weight: 400;
+    font-size: 20px;
+}
+.banner_social {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-left: 11px;
+}
+.banner_social ul{
+    padding-left: 0;
+}
+.banner_social ul li{}
+.banner_social ul li span{
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+}
+.banner_social ul li span::after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 35px;
+	background: #111;
+	top: 50%;
+	left: 84px;
+}
+.banner_social ul li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px 16px;
+	color: #111;
+	font-size: 18px;
+}
+
+
+/* Logo Section */
+.logo_section{
+    border-bottom: 1px solid #ddd;
+}
+.client_logo{}
+.client_logo ul{
+
+}
+.client_logo ul li{}
+
+
+/* About Section */
+
+
+
+.about_img{
+    position: relative;
+}
+.about_img_text{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(https://templates.envytheme.com/finix/default/assets/img/about/shape.png) no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    text-align: center;
+    background-position: center;
+
+}
+.about_img_text h2 {
+	font-size: 70px;
+	color: #e73c3e;
+}
+.about_img_text p {
+	font-weight: bold;
+}
+
+.about_text{}
+.finix_text h6 {
+	color: #ef4c36;
+	font-weight: 400;
+}
+.finix_text h2 {
+	font-size: 33px;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.finix_text p {
+	color: #606060;
+	font-size: 16px;
+	line-height: 1.8;
+}
+.finix_text strong {
+	color: #606060;
+	font-size: 20px;
+	font-weight: 400;
+}
+.finix_text ul{
+    margin-top: 20px;
+}
+.finix_text ul li{
+    padding: 5px 0;
+}
+.finix_text ul li::before{
+    content: "\f00c";
+    font-family: 'font Awesome 5 free';
+    font-weight: 600;
+    color: #fd4733;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
